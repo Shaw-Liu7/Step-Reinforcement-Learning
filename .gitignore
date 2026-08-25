@@ -1,0 +1,98 @@
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.coverage
+.coverage.*
+htmlcov/
+
+# Python build and package metadata
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+eval_agent/configs/model/openai.json
+*.pem
+*.key
+credentials.json
+
+# Logs, process files, and experiment trackers
+*.log
+*.pid
+logs/
+wandb/
+runs/
+
+# Generated reports and local outputs
+outputs/
+*.inspect.ndjson
+eval/*_eval/
+exploration/**/exploration_outputs/
+
+# Model weights, adapters, and training checkpoints
+models/
+ckt/
+ckpt/
+checkpoints/
+records/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Downloaded datasets, indexes, and archives
+/data/
+envs/webshop/data/
+envs/webshop/search_index/
+eval_agent/data/alfworld/
+virtualhome_master/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Generated PRM / PPO data
+prm/exploration_inference_results_*.json
+prm/sampled_data_rl_training_*.json
+
+# Platform-specific downloaded executables
+envs/webshop/src/webshop/web_agent_site/envs/chromedriver
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
