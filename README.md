@@ -35,7 +35,7 @@ The project organizes an end-to-end workflow around stepwise progress estimation
 The repository currently includes integrations and scripts for **WebShop**, **ALFWorld**, and **VirtualHome**. The WebShop path contains the most complete checked-in exploration workflow; the other environments require additional datasets, checkpoints, and environment-specific configuration.
 
 <p align="center">
-  <img src="./assets/spa_rl_framework.png" width="92%" alt="Step-RL training workflow">
+  <img src="./assets/step_rl_pipeline.svg" width="96%" alt="Step-RL training pipeline">
 </p>
 
 ## Why stepwise rewards?

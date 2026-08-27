@@ -35,7 +35,7 @@ Step-RL 是一个面向多步语言智能体强化学习的研究型工具集。
 仓库目前包含 **WebShop**、**ALFWorld** 和 **VirtualHome** 的集成与脚本。当前代码中，WebShop 的探索流程最为完整；另外两个环境仍需要额外的数据集、模型检查点和环境配置。
 
 <p align="center">
-  <img src="./assets/spa_rl_framework.png" width="92%" alt="Step-RL 训练流程">
+  <img src="./assets/step_rl_pipeline.svg" width="96%" alt="Step-RL 训练流程">
 </p>
 
 ## 为什么需要逐步奖励？
